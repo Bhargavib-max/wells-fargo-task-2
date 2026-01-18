@@ -11,7 +11,7 @@ public class Advisor {
 
     @Id
     @GeneratedValue()
-    private long advisorId;
+    private Long advisorId;
 
     @Column(nullable = false)
     private String firstName;
